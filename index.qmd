@@ -1,0 +1,111 @@
+---
+title: Open-Source Policy
+author: "[The Strategy Unit](https://www.strategyunitwm.nhs.uk/)"
+date: 2025-04-25
+date-modified: last-modified
+date-format: MMMM D YYYY
+license: CC BY
+format: html
+---
+
+## Introduction
+
+We are public servants providing public services.
+
+The Strategy Unit is therefore committed to maximising public value for the work we do. One significant route to this is disseminating our outputs.
+
+This might mean models, underpinning code, presentations, reports, or anything that usefully communicates the approaches we've used and the results we've arrived at.
+
+Others can then learn from, build upon, adapt and reuse what we have done in a way that would not be possible if outputs were not made public.
+
+So, our default approach is to share our work, through our website, our GitHub organisation, social media and other channels.
+
+Where our customers deem this to be inappropriate—perhaps for reasons of confidentiality, or perhaps because our advice is by nature private to them—then we are happy to discuss this.
+
+## About open source
+
+Open sourcing analytic code to ensure that '[all efforts are made to never solve the same problem twice](https://github.com/nhsx/open-source-policy/blob/main/open-source-policy.md)' was set out as policy in the comparatively recent [Data Saves Lives](https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data) (June 2022):
+
+> Public services are built with public money, and so the code they are based on should be made available across the health and care system, and those working with it, to reuse and build on.
+
+Open sourcing analytic and other code for public benefit is an idea that has been around for a long time.
+The Strategy Unit itself [first published code on GitHub](https://github.com/The-Strategy-Unit/StrategyUnitTheme/commit/c3a521c32d1a0dbe5f85f35636cece76bf58ad20) in November 2019 and the NHS-R community [first published](https://github.com/nhs-r-community/NHSRdatasets/commit/1e69c0a4bf129c002f3645d4ab09ccfae41917bc) in July 2019.
+The R language, which features prominently in both GitHub organisations, is itself open source and was first released in August 1993.
+Open source software is [recorded as early as 1953](https://en.wikipedia.org/wiki/History_of_free_and_open-source_software#Free_software_before_the_1980s), varying in importance in the decades since.
+[The GNU project](https://en.wikipedia.org/wiki/History_of_free_and_open-source_software#Launch_of_the_free_software_movement) in 1983 and [Linux](https://en.wikipedia.org/wiki/History_of_free_and_open-source_software#Linux_(1991%E2%80%93present)) in 1991 were turning points in the history of open source software, and the GNU/Linux project now [controls most of the internet](https://www.wired.com/2016/08/linux-took-web-now-taking-world/) as well as [running on all of the top 500 supercomputers](https://www.networkworld.com/article/3568616/linux-dominates-supercomputing.html) in the world.
+
+## Why open source?
+
+There is a lot of focus on the reuse of analytic code in discussion about open sourcing but in fact there are lots of reasons to open source analytic code.
+
+### Reuse
+
+This is often given as a reason to open source code, including in Data Saves Lives, and it has the potential to save a very large amount of time and money in health and social care.
+There is a great deal of analytic work needlessly done more than once in health and social care and open sourced code has the potential to '[minimise inefficient duplication](https://www.gov.uk/government/publications/better-broader-safer-using-health-data-for-research-and-analysis/better-broader-safer-using-health-data-for-research-and-analysis)'.
+
+### Transparency
+
+Analytic code should be routinely shared so that individuals and organisations affected by the analysis (and other interested parties) can satisfy themselves that the analysis has been conducted competently, with appropriate methods and without error.
+This is particularly useful when the data or analysis are themselves sensitive and are not shared; sharing of code can show that the analysis is done to an appropriate standard
+
+### Reliability
+
+[Open source code is often better](https://www.freecodecamp.org/news/what-is-great-about-developing-open-source-and-what-is-not/) than closed source code because the individuals working on the project know that anybody can see what they are doing.
+There is a much stronger motivation to produce high quality code but in particular to write useful and detailed documentation when there is a potentially very large audience of people reading the code in the future.
+
+### Contribution
+
+Openness means that code can be improved by outside observers, who can find and report bugs, request new features and even contribute their own code.
+This can help improve the quality of the project at little cost, allow developers to better meet user needs and even help to build a community around the project.
+
+### Education
+
+Sharing analytic code is also an important part of allowing others to learn more about both the analytic methods and the specific implementation used in an analysis.
+Open sourced code used in a real analytic task can be a highly useful way for individuals working in health and care who wish to learn more about a method to see it in an applied setting.
+
+### Repurpose
+
+Although reuse of analytic code is often put forward as a transformative benefit of open sourcing of analytic code, and although open sourcing of code does have the potential to greatly increase efficiency in this way, at the time of writing the scope to reuse analytic code 'off the shelf' is fairly limited.
+There is a profusion of different databases, analytic tasks, analytic questions and types of output, and in practice it is very rare for analytic code to be reused wholesale.
+However, there is a very significant potential to be realised from open sourcing code that can be repurposed in different organisations. Organisation B may have a different database vendor to Organisation A, and they may have a different question to answer, but if Organisation A has shared their analytic code then it is highly likely that it can be more easily repurposed with a new dataset and a new question than written from scratch.
+
+## Policy
+
+Many organisations have their own open source policies, including [the Data Science Campus](https://datasciencecampus.github.io/coding-in-the-open/) (Office for National Statistics) and [NHS England](https://github.com/nhsx/open-source-policy/blob/main/open-source-policy.md), while the Foundation for Public Code also maintains a generic [Standard for Public Code](https://standard.publiccode.net/). 
+
+We should develop and follow our own open source principles to help maximise the value of our work and make it easier for ourselves and others to contribute to it and repurpose it, driving up quality and improving efficiency. 
+
+We should:
+
+1. Be open early.
+    a. We will ensure that open source will be the default position for all coding projects.
+    b. We will always seek to agree on open sourcing code before a project begins.
+    c. We will code in the open from the beginning of a project unless there is a good reason not to
+    d. Use MIT or GPL licences for code and OGL or CC0 for documentation
+2. Open source as much as we can.
+    a. We will strive to release as much code as we can for a given project.
+    b. Code will be closed by exception and with clear justification.
+    c. We may redact elements of a project if methods are not finalised or the area is controversial.
+3. Use open source tools.
+    a. We will use tools that are free and easily obtained so that others can access and reproduce our results. This includes:
+        * Git for version control
+        * GitHub for hosting the code and for collaboration
+        * open source coding languages such as R and Python.
+4. Follow industry best practices.
+    a. Regarding coding processes, we will: 
+        * review all code contributions for quality
+        * write clear and meaningful commit message
+        * release code with semantic versioning and informative release notes
+    b. Regarding context, we will:
+        * publish clear limitations and caveats alongside our code to help prevent it from being inadvertently misused
+        * provide documentation in plain English, including an informative README
+    c. Regarding security, we will use: 
+        * appropriate controls with respect to data and credential management
+        * .gitignore templates to exclude specific files, such as data
+        * automated detection methods, such as git hooks and GitHub Actions, to protect from accidental upload
+    d. Regarding maintenance, we will:
+        * nominate and regularly update a point of contact for all of our open repositories, who will be responsible for managing issues and pull requests in a timely fashion
+        * clearly advertise and routinely reassess the status and lifecycle stage of each project, archiving but not deleting repositories if they are no longer current
+5. Build a culture of openness.
+    a. We should build an internal culture of openness, normalise and promote an ‘open by default' mentality and encourage learning and development in this area.
+    b. We should encourage interested external parties to contribute and reuse our code by publishing it with an appropriate open source licence and by keeping accessibility and inclusiveness in mind.
