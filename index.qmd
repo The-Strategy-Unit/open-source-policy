@@ -1,9 +1,9 @@
 ---
 title: Open-Source Policy
 author: "[The Strategy Unit](https://www.strategyunitwm.nhs.uk/)"
-date: 2025-04-25
+date: 2025-04-30
 date-modified: last-modified
-date-format: MMMM D YYYY
+date-format: D MMMM YYYY
 license: CC BY
 format: html
 ---
