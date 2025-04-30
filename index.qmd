@@ -113,3 +113,7 @@ We should:
 ### Version {.appendix}
 
 v0.1.0
+
+### Source {.appendix}
+
+[https://github.com/The-Strategy-Unit/open-source-policy/](https://github.com/The-Strategy-Unit/open-source-policy/)
