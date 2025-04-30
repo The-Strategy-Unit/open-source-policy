@@ -109,3 +109,7 @@ We should:
 5. Build a culture of openness.
     a. We should build an internal culture of openness, normalise and promote an ‘open by default' mentality and encourage learning and development in this area.
     b. We should encourage interested external parties to contribute and reuse our code by publishing it with an appropriate open source licence and by keeping accessibility and inclusiveness in mind.
+
+### Version {.appendix}
+
+v0.1.0
