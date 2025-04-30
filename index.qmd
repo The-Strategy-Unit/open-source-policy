@@ -1,9 +1,9 @@
 ---
 title: Open-Source Policy
 author: "[The Strategy Unit](https://www.strategyunitwm.nhs.uk/)"
-date: 2025-04-25
+date: 2025-04-30
 date-modified: last-modified
-date-format: MMMM D YYYY
+date-format: D MMMM YYYY
 license: CC BY
 format: html
 ---
@@ -81,7 +81,7 @@ We should:
     a. We will ensure that open source will be the default position for all coding projects.
     b. We will always seek to agree on open sourcing code before a project begins.
     c. We will code in the open from the beginning of a project unless there is a good reason not to
-    d. Use MIT or GPL licences for code and OGL or CC0 for documentation
+    d. Use [MIT](https://opensource.org/license/mit) or [GPL](https://www.gnu.org/licenses/gpl-3.0.en.html) licences for code and [OGL](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) or [CC0](https://creativecommons.org/public-domain/cc0/) for documentation
 2. Open source as much as we can.
     a. We will strive to release as much code as we can for a given project.
     b. Code will be closed by exception and with clear justification.
@@ -109,3 +109,11 @@ We should:
 5. Build a culture of openness.
     a. We should build an internal culture of openness, normalise and promote an ‘open by default' mentality and encourage learning and development in this area.
     b. We should encourage interested external parties to contribute and reuse our code by publishing it with an appropriate open source licence and by keeping accessibility and inclusiveness in mind.
+
+### Version {.appendix}
+
+v0.1.0
+
+### Source {.appendix}
+
+[https://github.com/The-Strategy-Unit/open-source-policy/](https://github.com/The-Strategy-Unit/open-source-policy/)

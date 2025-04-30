@@ -1,6 +1,7 @@
-# Ignore rendered doc
+# Ignore rendered docs
 index.html
 index_files/
+README.html
 
 # History files
 .Rhistory
