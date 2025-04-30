@@ -81,7 +81,7 @@ We should:
     a. We will ensure that open source will be the default position for all coding projects.
     b. We will always seek to agree on open sourcing code before a project begins.
     c. We will code in the open from the beginning of a project unless there is a good reason not to
-    d. Use MIT or GPL licences for code and OGL or CC0 for documentation
+    d. Use [MIT](https://opensource.org/license/mit) or [GPL](https://www.gnu.org/licenses/gpl-3.0.en.html) licences for code and [OGL](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/) or [CC0](https://creativecommons.org/public-domain/cc0/) for documentation
 2. Open source as much as we can.
     a. We will strive to release as much code as we can for a given project.
     b. Code will be closed by exception and with clear justification.
