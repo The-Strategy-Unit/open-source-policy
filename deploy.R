@@ -10,5 +10,4 @@ deploy <- function(server_name, app_id) {
   )
 }
 
-deploy("connect.strategyunitwm.nhs.uk", 361)
-deploy("connect.su.mlcsu.org", 80)
+deploy("connect.strategyunitwm.nhs.uk", 80)
